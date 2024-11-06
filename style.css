@@ -1,0 +1,979 @@
+.header{
+    display: grid;
+    grid-template-columns: 150px 350px 100px 100px 100px 50px 50px;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 10vh;
+    margin: auto;
+}
+.logo{
+    height: 6vh;
+    width: 11vw;
+}
+.input1{
+    width: 22vw;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.719);
+}
+.search{
+    height: 4vh;
+    width: 2vw;
+    margin-top: 1vh;
+    opacity: 0.6;
+}
+.try{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: -3.5vh;
+    margin-left: 2vw;
+    opacity: 0.6;
+}
+.mobile{
+    height: 4vh;
+    width: 2vw;
+    margin-top: 1.5vh;
+}
+.download{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 2vw;
+    width: 8.5vw;
+    height: 3vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.329);
+    margin-top: -4vh;
+}
+.become{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 2vw;
+    width: 10.5vw;
+    height: 3vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.329);
+    /* margin-top: -4vh; */
+}
+.news{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 4vw;
+    width: 7vw;
+    height: 3vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.329);
+    /* margin-top: -4vh; */
+}
+.profile{
+    height: 2vh;
+    width: 1.2vw;
+    margin-top: 2vh;
+    margin-left: 4vw;
+}
+.profile1{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    margin-left: 3.4vw;
+    margin-top: 0vh;
+}
+.cart{
+    height: 6vh;
+    width: 3vw;
+    margin-top: 0.1vh;
+    margin-left: 2vw;
+}
+.cart1{
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    margin-left: 2.6vw;
+    margin-top: -2vh;
+}
+hr{
+    margin-top: -0.3vh;
+    opacity: 0.6;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 150px 180px 90px 90px 160px 160px 219px 153px 160px;
+    width: 80vw;
+    margin: auto;
+    margin-top: -1vh;
+}
+.women{
+    font-family:"-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+}
+.womenw{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.men{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.kids{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.home{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.beauty{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.jew{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 12vw;
+}
+.bag{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.ele{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 10vw;
+}
+.container{
+    width: 75vw;
+    height: 50vh;
+    margin: auto;
+    /* border: 2px solid black; */
+    margin-top: 8vh;
+    border-radius: 5px;
+}
+.container11{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    float: right;
+    height: 50vh;
+    margin-top: -33.2vh;
+    margin-left: 35vw;
+    width: 40vw;
+}
+.lowest{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 700;
+    font-size: 2.8rem;
+    opacity: 0.8;
+}
+.img2{
+    margin-left: 1.5vw;
+    height: 5vh;
+    width: 5vw;
+}
+.free{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: -5vh;
+    margin-left: 5.5vw;
+    border-right: 1px solid black;
+    width: 6vw;
+}
+.img3{
+    margin-top: -7.5vh;
+    margin-left: 11vw;
+    height: 5vh;
+    width: 5vw;
+}
+.cash{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: -5vh;
+    margin-left: 15vw;
+    border-right: 1px solid black;
+    width: 6vw;
+}
+.img4{
+    margin-top: -7.5vh;
+    margin-left: 21vw;
+    height: 5vh;
+    width: 5vw;
+}
+.easy{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: -5vh;
+    margin-left: 25vw;
+    width: 6vw;
+}
+.button{
+    width: 22vw;
+    border-radius: 3px;
+    height: 6vh;
+    margin-top: -14vh;
+    background: rgb(159, 32, 137);
+}
+
+ .download2{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1.2vh;
+    text-align: center;
+ }
+ /* .hr2{
+    width: 75vw;
+    z-index: -1;
+    margin-top: 14vh;
+ } */
+ .top2{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 10vh;
+    z-index: 1;
+    width: 100vw;
+ }
+ .container2{
+    width: 75vw;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.img5{
+    width: 75vw;
+    border-radius: 4px;
+    height: 70vh;
+ }
+ .img6{
+    margin-top: -65vh;
+    padding-top: -80vh;
+    height: 60vh;
+    width: 26vw;
+    margin-left: 2vw;
+ }
+ .container21{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+ }
+ .img7{
+    margin-top: -44vh;
+    margin-left: 30vw;
+ }
+ .container22{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+ }
+ .img8{
+    margin-top: -44vh;
+    margin-left: 52vw;
+ }
+ .container23{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+ }
+ .container3{
+    width: 75vw;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 10vh;
+}
+.img9{
+    width: 75vw;
+    height: 70vh;
+}
+.img10{
+    height: 8vh;
+    width: 10vw;
+    margin-top: -40vh;
+    margin-left: 9vw;
+}
+.container31{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+ }
+ .img11{
+    margin-top: -62vh;
+    margin-left: 28vw;
+ }
+.container32{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+}
+.container33{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+}
+.img12{
+    margin-top: -62vh;
+    margin-left: 43vw;
+}
+.container34{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+}
+.img13{
+    margin-top: -62vh;
+    margin-left:58vw;
+}
+.container35{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+}
+.img14{
+    margin-top: -15vh;
+    margin-left: 28.5vw;
+    height: 8vh;
+    width: 12vw;
+}
+.container36{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+}
+.img15{
+    margin-top: -15vh;
+    margin-left: 43.5vw;
+    height: 8vh;
+    width: 12vw;
+}
+.container37{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* border: 2px solid black; */
+}
+.img16{
+    margin-top: -15vh;
+    margin-left: 58.5vw;
+    height: 8vh;
+    width: 12vw;
+}
+.container4{
+    width: 75vw;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 10vh;
+}
+.container5{
+    width: 75vw;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 10vh;
+}
+.img17{
+    width: 75vw;
+    height: 70vh;
+}
+.become2{
+    margin-left: 50vw;
+    margin-top: -60vh;
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: rgb(85, 133, 248);
+}
+.start{
+    margin-left: 35vw;
+    /* float: right; */
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: rgb(159, 32, 137);
+}
+.container51{
+    display: grid;
+    grid-template-columns: 172px 100px;
+    column-gap: 30px;
+    height: 3.5vw;
+    width: 34vw;
+    justify-content: flex-end;
+    margin-left: 30vw;
+}
+.img18{
+    height: 6vh;
+    width: 12vw;
+    border-radius: 5px;
+}
+.img19{
+    height: 6vh;
+    width: 12vw;
+    border-radius: 5px;
+}
+.container6{
+    width: 75vw;
+    height:47vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 10vh;
+}
+.img20{
+    width: 75vw;
+    height: 47vh;
+}
+.register{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin-top: -40vh;
+    margin-left: 4vw;
+    color: white;
+}
+.cell{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 4vw;
+    margin-top: -2vh;
+    color: white;
+}
+.container61{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+.img21{
+    height: 4.5vh;
+    width: 7vw;
+    margin-left: 1vw;
+}
+.grow{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 5.8vw;
+    margin-top: -3.5vh;
+    border-right: 1px solid white;
+    color: white;
+    width: 15vw;
+}
+.img22{
+    height: 4.5vh;
+    width: 7vw;
+    margin-left: 20vw;
+    margin-top: -6vh;
+}
+.enjoy{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 25vw;
+    margin-top: -3.5vh;
+    border-right: 1px solid white;
+    color: white;
+    width: 11.2vw;
+}
+.img23{
+    height: 4.5vh;
+    width: 7vw;
+    margin-left: 35vw;
+    margin-top: -6vh;
+}
+.sell{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 40vw;
+    margin-top: -3.5vh;
+    /* border-right: 1px solid white; */
+    color: white;
+    width: 12vw;
+}
+.container62{
+    width: 11vw;
+    height: 9vh;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+.sign{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1.5vh;
+    padding-left: 2vw;
+    color: rgb(159, 32, 137);
+}
+.products{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-top: 6vh;
+    margin-left: 6vw;
+}
+.container7{
+    display: grid;
+    grid-template-columns: 23vw 62vw;
+    column-gap: 15px;
+    margin: auto;
+    justify-content: center;
+}
+.container71{
+    /* border: 2px solid black; */
+    height: 418vh;
+}
+.child4{
+    border: 1px solid rgb(16 16 16 / 20%);
+    margin-top: 0vh;
+    margin-left: 1.3vw;
+    width: 19vw;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sort{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 0.6;
+}
+.relevance{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+}
+.img24{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 6vw;
+}
+.child5{
+    margin-left: 1.3vw;
+    margin-top: 3vh;
+    border: 1px solid rgb(16 16 16 / 20%);
+    width: 20.3vw;
+    border-radius: 5px;
+    height: 408vh;
+}
+.filter{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 1vw;
+}
+.product2{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 0.7rem;
+    opacity: 0.6;   
+    margin-top: -1vh;
+    margin-left: 1vw;
+}
+.hr3{
+    width: 18vw;
+    opacity: 0.7;
+}
+.category{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+.img25{
+    height: 3vh;
+    width: 3vw;
+    /* margin-top: 5vh; */
+    margin-left: 9.4vw;
+}
+.hr4{
+    width: 18vw;
+    opacity: 0.7;
+    margin-top: 2.7vh;
+}
+.img26{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 10.4vw;
+}
+.img27{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11.6vw;
+}
+.img28{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11.1vw;
+}
+.img29{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.5vw;
+}
+.img30{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 12.3vw;
+}
+.img31{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11.9vw;
+}
+.img32{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11.2vw;
+}
+.img33{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9vw;
+}
+.img34{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8vw;
+}
+.img35{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.1vw;
+}
+.img36{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 10.8vw;
+}
+.img37{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 10vw;
+}
+.img38{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9vw;
+}
+.img39{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.7vw;
+}
+.img40{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.7vw;
+}
+.img41{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.3vw;
+}
+.img42{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.5vw;
+}
+.img43{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.8vw;
+}
+.img44{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.2vw;
+}
+.img45{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 10.3vw;
+}
+.img46{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 6.6vw;
+}
+.img47{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 3vw;
+}
+.img48{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.6vw;
+}
+.img49{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 4.3vw;
+}
+.img50{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 6.6vw;
+}
+.img51{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 3.2vw;
+}
+.img52{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11vw;
+}
+.img53{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 6.2vw;
+}
+.img54{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.8vw;
+}
+.img55{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.3vw;
+}
+.img56{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8vw;
+}
+.img57{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.5vw;
+}
+.img58{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.5vw;
+}
+.img59{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11.2vw;
+}
+.img60{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 3.9vw;
+}
+.img61{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 5.8vw;
+}
+.img62{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.8vw;
+}
+.img63{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.7vw;
+}
+.img64{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.1vw;
+}
+.img65{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.3vw;
+}
+.img66{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.8vw;
+}
+.img67{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.8vw;
+}
+.img68{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 11.8vw;
+}
+.img69{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 6.3vw;
+}
+.img70{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7vw;
+}
+.img71{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.8vw;
+}
+.img72{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 7.8vw;
+}
+.img73{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 9.4vw;
+}
+.img74{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 2.8vw;
+}
+.img75{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8.3vw;
+}
+.img76{
+    height: 3vh;
+    width: 3vw;
+    margin-left: 8vw;
+}
+.container72{
+    /* border: 2px solid black; */
+    height: 615vh;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+    row-gap: 7vh;
+    column-gap: 24px;
+}
+.child6{
+    /* border: 2px solid black; */
+    height: 420px;
+    border-radius: 8px;
+    border: 1px solid rgb(234, 234, 242);
+}
+.img77{
+    width: 14.1vw;
+}
+.img78{
+    width: 14.1vw;
+    height: 33vh;
+}
+.img79{
+    width: 14.1vw;
+    height: 33vh;
+}
+.img80{
+    width: 14.1vw;
+    height: 33vh;
+}
+.adivasi{
+    font-family: "-apple-system", "Helvetica Neue", sans-serif, "Mier Book";
+    font-weight: 400;
+    font-size: 1.1rem;
+    opacity: 0.6;  
+    height: 1.5vh; 
+}
+.rupee{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.rupee2{
+    margin-left: 0.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+.hr5{
+    width: 2.9vw;
+    margin-left: -2.8vw;
+    margin-top: 1.8vh;
+}
+.discount{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-left: 0.5vw;
+    /* margin-top: -2vh; */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+.Prices1{
+    display: flex;
+    flex-direction: row;
+    row-gap: 1vw;
+}
+.Price12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.free3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-left: 0.5vw;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 4.5vw;
+    border-radius: 25px;
+    height: 5vh;
+}
+.rate2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 0.8vh;
+    margin-left: 0.5vw;
+    color: white;
+}
+.review2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    width: 8vw;
+    margin-top: 2.2vh;
+    margin-left: 1.6vw;
+}
+.star{
+    height: 1.6vh;
+    width: 2vw;
+    margin-top: 1.5vh;
+    margin-left: 0.5vw;
+}
